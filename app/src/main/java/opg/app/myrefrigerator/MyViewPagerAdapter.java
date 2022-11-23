@@ -8,8 +8,8 @@ public class MyAdapter extends FragmentStateAdapter { // ViewPager2
 
     public int mCount;
 
-    public MyAdapter(HomeFragment fa, int count) { // 아래 super 보니 main을 부모로 하려나본데, 프래그먼트에 쓸거면 프래그먼트를 부모로 해도 되는거잖아
-        super(fa); // public MyAdapter(MainActivity fa, int count) 원래 이거임
+    public MyAdapter(HomeFragment fa, int count) {
+        super(fa);
         mCount = count;
     }
 
